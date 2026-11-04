@@ -7,6 +7,23 @@
 - 鉴权方式：Personal Access Token（PAT），直连 `api.github.com`。
 - 绕开了 WorkBuddy 云端 OAuth 那个会 500 的链接按钮。
 
+## 目录结构
+```
+workbuddy-demo/
+├── src/
+│   ├── hello.py     # Python 版打招呼脚本（附斐波那契）
+│   └── hello.js     # Node 版同名脚本
+├── examples/
+│   └── run.md       # 运行说明
+└── README.md
+```
+
+## 运行示例
+```bash
+python src/hello.py 栋哥
+node src/hello.js 栋哥
+```
+
 ## 我能用这个 MCP 做什么
 - 创建 / 删除仓库
 - 读写文件、提交代码
